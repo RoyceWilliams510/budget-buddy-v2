@@ -1,0 +1,53 @@
+.ul-headers{
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-size: large;
+
+}
+
+.item-lists{
+    font-size: medium;
+    
+}
+.container{
+    width:40%;
+    padding:20px;
+    margin:auto;
+    background-color: lightskyblue;
+    margin-bottom: 15px;
+
+}
+#right-container{
+    background-color: lightskyblue;
+
+}
+#left-container{
+    background-color: lightgreen;
+
+
+}
+
+.listers{
+    margin-top: 15px;
+}
+
+.form-group{
+    margin-top: 10px;
+    
+}
+#form-submitter{
+    margin-top: 10px;
+
+}
+.adder{
+    width: 30%;
+    background-color: lightpink;
+    padding:10px;
+}
+#header{
+    margin: auto;
+    text-align: center;
+    margin-bottom:10px
+}
+

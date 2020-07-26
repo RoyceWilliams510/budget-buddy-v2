@@ -1,0 +1,13 @@
+<li class = "listers">
+    {{#if purchased}}
+            {{item}}
+            <p>Price: ${{price}}</p>
+            <button class="remover" data-id="{{id}}">
+                remove Item </button>
+    {{else}} 
+            {{item}}
+            <p>Price: ${{price}}</p>
+            <button class="buyer" data-id="{{id}}" data-changedState="{{purchased}}">
+                Buy Item </button>
+    {{/if}}
+</li>
